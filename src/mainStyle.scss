@@ -1,3 +1,9 @@
+$coloreMio: lightblue;
+
+body{
+    background-color: $coloreMio;
+}
+
 .mainDiv
 {
     font-weight: bold;
@@ -6,22 +12,105 @@
 }
 .menuContainer
 {
+    background-color: aquamarine;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: white;
 }
 
 .homeClass
 {
     order: 0;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .infoClass
 {
     order: 1;
+    flex-direction: column;
 }
 
 .aboutClass
 {
     order: 2;
+    flex-direction: column;
+}
+
+.elementi{
+    display: flex;
+    order: 3;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: auto;
+    background-color: darksalmon;
+}
+/*
+.elementi2{
+    display: flex;
+    order: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: auto;
+    background-color: darksalmon;
+}
+.elementi3{
+    display: flex;
+    order: 2;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: auto;
+    background-color: darksalmon;
+}*/
+
+.content
+{
+    background-color: #4CAF50;
+    display: flex;
+    gap: 450px;
+    align-items: flex-start;
+    
+    //flex-grow: 4;
+}
+.leftMenu
+{
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.pulsante{
+    border: none;
+    color: white;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.pulsante1{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+.pulsante1:hover{
+    background-color: tomato;
+    color: white;
+}
+
+nav{
+    ul {
+        margin: 0;
+        padding: 20;
+    }
+    li{
+        display: block;
+        background-color: yellow;
+    }
 }
