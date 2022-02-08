@@ -1,0 +1,27 @@
+.mainDiv
+{
+    font-weight: bold;
+    color: crimson;
+
+}
+.menuContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.homeClass
+{
+    order: 0;
+}
+
+.infoClass
+{
+    order: 1;
+}
+
+.aboutClass
+{
+    order: 2;
+}
